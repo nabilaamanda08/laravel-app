@@ -47,9 +47,10 @@ class BrandController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit($id)
     {
-        //
+        $brand = Brand::where('brand_id', $id)->first();
+        return view('brand.edit', compact('brand'));
     }
 
     /**
@@ -57,14 +58,22 @@ class BrandController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        $row = Brand::findOrFail($id);
+        $row->update([
+            'nama_brand' => $request->nama_brand,
+        ]);
+
+        return redirect('/brand');
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destory(string $id)
     {
-        //
+        $row = Brand::findOrFail($id);
+        $row->delete();
+
+        return redirect('/brand');
     }
 }
