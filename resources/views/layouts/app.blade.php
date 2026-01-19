@@ -35,6 +35,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('/brand') }}">Brand</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/model') }}">Model</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/detail') }}">Detail</a>
+                        </li>
                         @endauth
                     </ul>
 

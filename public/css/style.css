@@ -1,0 +1,380 @@
+/* ===============================
+   SIDEBAR LAYOUT
+================================ */
+#wrapper {
+    min-height: 100vh;
+    display: flex;
+}
+
+/* Sidebar */
+#sidebar-wrapper {
+    width: 220px; /* Lebar sidebar lebih ramping */
+    min-height: 100vh;
+    background-color: #D18B8D !important; /* Dusty Pink (menggunakan !important agar lebih override) */
+}
+
+/* ===============================
+   HEADER SIDEBAR
+================================ */
+#sidebar-wrapper .sidebar-heading {
+    padding: 1rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #fff;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #D18B8D !important; /* Dusty Pink */
+}
+
+/* ===============================
+   MENU SIDEBAR
+================================ */
+#sidebar-wrapper .list-group-item {
+    background-color: #D18B8D !important; /* Dusty Pink */
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+/* Hover menu */
+#sidebar-wrapper .list-group-item:hover {
+    background-color: #C66B66 !important; /* Slightly darker pink */
+    color: #fff;
+}
+
+/* MENU ACTIVE (PUTIH) */
+#sidebar-wrapper .list-group-item.active {
+    background-color: #ffffff !important; /* White for active item */
+    color: #D18B8D !important; /* Dusty Pink */
+    font-weight: 600;
+    border-left: 5px solid #D18B8D !important;
+}
+
+/* ===============================
+   PAGE CONTENT
+================================ */
+#page-content-wrapper {
+    flex-grow: 1;
+    background-color: #fff;
+    color: #333;
+    padding: 2rem;
+}
+
+/* Navbar atas */
+.navbar {
+    height: 56px;
+    background-color: #D18B8D !important; /* Dusty Pink */
+    color: #fff;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #C66B66; /* Hover effect with a darker dusty pink */
+}
+
+/* Tombol */
+.btn {
+    background-color: #D18B8D !important; /* Dusty Pink */
+    color: #fff;
+    border: none;
+    margin: 5px 0;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #C66B66 !important; /* Darker pink on hover */
+}
+
+/* Button Active */
+.btn.active {
+    background-color: #ffffff !important; /* White for active button */
+    color: #D18B8D;
+    border-left: 5px solid #D18B8D;
+}
+
+/* Links */
+a {
+    color: #D18B8D; /* Dusty Pink */
+}
+
+a:hover {
+    color: #C66B66; /* Darker pink on hover */
+}
+
+/* ===============================
+   SIDEBAR LAYOUT
+================================ */
+#wrapper {
+    min-height: 100vh;
+    display: flex;
+}
+
+/* Sidebar */
+#sidebar-wrapper {
+    width: 220px; /* Lebar sidebar lebih ramping */
+    min-height: 100vh;
+    background-color: #D18B8D !important; /* Dusty Pink (menggunakan !important agar lebih override) */
+}
+
+/* ===============================
+   HEADER SIDEBAR
+================================ */
+#sidebar-wrapper .sidebar-heading {
+    padding: 1rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #fff;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #D18B8D !important; /* Dusty Pink */
+}
+
+/* ===============================
+   MENU SIDEBAR
+================================ */
+#sidebar-wrapper .list-group-item {
+    background-color: #D18B8D !important; /* Dusty Pink */
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+/* Hover menu */
+#sidebar-wrapper .list-group-item:hover {
+    background-color: #C66B66 !important; /* Slightly darker pink */
+    color: #fff;
+}
+
+/* MENU ACTIVE (PUTIH) */
+#sidebar-wrapper .list-group-item.active {
+    background-color: #ffffff !important; /* White for active item */
+    color: #D18B8D !important; /* Dusty Pink */
+    font-weight: 600;
+    border-left: 5px solid #D18B8D !important;
+}
+
+/* ===============================
+   PAGE CONTENT
+================================ */
+#page-content-wrapper {
+    flex-grow: 1;
+    background-color: #fff;
+    color: #333;
+    padding: 2rem;
+}
+
+/* Navbar atas */
+.navbar {
+    height: 56px;
+    background-color: #D18B8D !important; /* Dusty Pink */
+    color: #fff;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #C66B66; /* Hover effect with a darker dusty pink */
+}
+
+/* Tombol */
+.btn {
+    background-color: #D18B8D !important; /* Dusty Pink */
+    color: #fff;
+    border: none;
+    margin: 5px 0;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #C66B66 !important; /* Darker pink on hover */
+}
+
+/* Button Active */
+.btn.active {
+    background-color: #ffffff !important; /* White for active button */
+    color: #D18B8D;
+    border-left: 5px solid #D18B8D;
+}
+
+/* Links */
+a {
+    color: #D18B8D; /* Dusty Pink */
+}
+
+a:hover {
+    color: #C66B66; /* Darker pink on hover */
+}
+
+/* ===============================
+   GLOBAL STYLES
+================================ */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* ===============================
+   SIDEBAR STYLES
+================================ */
+#wrapper {
+    min-height: 100vh;
+    display: flex;
+}
+
+/* Sidebar */
+#sidebar-wrapper {
+    width: 220px;
+    min-height: 100vh;
+    background-color: #D18B8D; /* Dusty Pink */
+}
+
+/* ===============================
+   HEADER SIDEBAR
+================================ */
+#sidebar-wrapper .sidebar-heading {
+    padding: 1rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #fff;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #D18B8D; /* Dusty Pink */
+}
+
+/* ===============================
+   PAGE CONTENT
+================================ */
+#page-content-wrapper {
+    flex-grow: 1;
+    background-color: #fff;
+    color: #333;
+    padding: 2rem;
+}
+
+/* ===============================
+   CARD STYLES
+================================ */
+
+
+.card {
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px; /* Space between cards */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.card .card-body {
+    padding: 1.5rem;
+    text-align: center;
+    
+}
+
+/* Card background colors */
+.alert-info {
+    background-color: #d2a5b5 !important;
+    margin-bottom: 2%;
+    color: rgb(255, 46, 46) !important; 
+}
+
+.bg-info {
+    background-color: #c3859b !important; 
+}
+
+.bg-success {
+    background-color: #c3859b !important; 
+}
+
+.bg-warning {
+    background-color: #c3859b !important; 
+}
+
+.bg-keunggulan {
+    background-color: #c3859b ;
+}
+/* Card Titles */
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* ===============================
+   BUTTON STYLES
+================================ */
+.btn {
+    background-color: #fd8a8a !important; /* Dusty Pink */
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #C66B66 !important; /* Darker pink */
+}
+
+/* ===============================
+   ALERT STYLES
+================================ */
+.alert-info {
+    background-color: #B3D8E4;
+    color: #0056b3;
+    border-radius: 8px;
+    padding: 15px;
+    font-weight: 600;
+}
+
+/* ===============================
+   LIST GROUP STYLES
+================================ */
+.list-group-item {
+    border: none;
+    font-size: 1rem;
+    padding: 10px 15px;
+}
+
+.list-group-item:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+/* ===============================
+   FOOTER
+================================ */
+footer {
+    padding: 1rem 0;
+    background-color: #D18B8D;
+    color: white;
+    text-align: center;
+}
+
+
+

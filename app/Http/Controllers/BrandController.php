@@ -57,7 +57,7 @@ class BrandController extends Controller
      * Update the specified resource in storage.
      */
     public function update(Request $request, string $id)
-    {
+    { 
         $row = Brand::findOrFail($id);
         $row->update([
             'nama_brand' => $request->nama_brand,
@@ -69,7 +69,7 @@ class BrandController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destory(string $id)
+    public function destroy(string $id)
     {
         $row = Brand::findOrFail($id);
         $row->delete();
